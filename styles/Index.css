@@ -1,0 +1,407 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px;
+}
+a:hover{
+    color: rgb(181, 116, 255);
+}
+li{
+   list-style: none;
+   font-weight: 500;
+}
+#navbar ul a:nth-child(1){
+    background-color: rgb(233, 233, 233);
+    border-radius: 12px 12px 12px 12px;
+    padding: 10px 20px;
+
+}
+
+#navbar ul{
+    gap: 10px;
+}
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+    width: calc(100% - 48px);
+}
+
+.flex-container{
+    display: flex;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-content{
+    justify-content: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+#navbar, #navbar-ricerca{
+    background-color: white;
+    width: 100%;
+    height: 72px;
+}
+
+.Blog{
+    text-align: center;
+}
+.Blog h1{
+    font-size: 100px;
+    padding-top:120px ;
+    padding-bottom: 120px;
+    background-color: rgb(235, 235, 235);
+    margin-top: 16px;
+}
+
+#navbar-ricerca input{
+    width: 100%;
+    height: 48px;
+    border-radius: 20px;
+    background-color: rgb(226, 226, 226);
+    max-width: 367px;
+    border: none;
+    padding-left: 30px;
+    font-size: 15px;
+    color: black;
+    outline: none;
+}
+
+
+#navbar-ricerca {
+    height: 72px;
+}
+
+
+
+#navbar-ricerca ul a:nth-child(5){
+    background-color: rgb(233, 233, 233);
+    border-radius: 12px 12px 12px 12px;
+;
+}
+
+.section1{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row: 1fr;
+}
+
+.testo button {
+    padding: 10px 16px;
+    background-color: rgb(233, 233, 233);
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    
+}
+.testo {
+    width: 400px;
+}
+.testo p {
+    font-weight: 500;
+    margin-top: 48px;
+    color: rgb(181, 116, 255);
+}
+
+.testo h1 {
+    margin-top: 16px;
+    font-size: 48px;
+}
+.immagine{
+    margin-top: 70px;
+}
+
+.author{
+    margin-top: 16px;
+}
+
+.author h3 {
+background-color: rgb(245, 245, 245);
+border-radius: 100%;
+padding: 10px;
+font-size: 16px;
+font-weight: 400;
+margin-top: 0px;
+}
+
+.author h4 {
+background-color: rgb(243, 243, 243);
+padding: 10px 20px;
+border-radius: 16px;
+font-weight: 600;
+}
+
+.section2 h1{
+    margin-top: 120px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+
+.articoli .immagin{
+    background-color: rgb(63, 63, 63);
+    width: 370px;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid  rgb(0, 0, 0);
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.sezione-articoli h1{
+    margin-top: 100px;
+    font-size: 2.5rem;
+    color: #000000 ;
+    font-weight: 600;
+}
+
+.articoli  h2, h3, button{
+    margin-top: 16px;
+}
+
+.articoli h2{
+    font-size: 16px;
+    color: #a14fff ;
+    font-weight: 600;
+}
+
+.articoli h3{
+    font-size: 24px;
+    color: #313131 ;
+    font-weight: 500;
+}
+
+.articoli button{
+    font-size: 16px;
+    color: #313131 ;
+    font-weight: 400;
+    background-color: rgb(230, 230, 230);
+    border: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+.container3{
+    margin-top: 40px;
+    justify-content:center ;
+}
+.container3 h3{
+    font-size: 28px;
+    cursor: pointer;
+    color: rgb(147, 52, 255);
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+.sfondo{
+    padding: 1px 0px 0px 0px ;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+}
+
+.community-container h3{
+font-size: 90px;
+font-weight: 600;
+margin-top: 80px;
+}
+
+.community-container form{
+    overflow: hidden;
+    width: 368px;
+    height: 56px;
+    }
+    
+
+.brand{
+color: #a14fff;
+font-weight: 600;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    gap: 56px 116px;
+    margin: 40px;
+    margin-left: 0px;
+}
+
+.grid h3{
+    font-size: 24px;
+    color: #6d6d6d;
+    font-weight: 400;
+}
+
+.grid-social {
+   font-size: 31px;
+   gap: 31px;
+}
+
+.grid-social a{
+    padding: 0px;
+ }
+ 
+
+
+
+
+.fa-facebook-square:before {
+    content: "\f082";
+}
+
+.fa-instagram:before {
+    content:"\f082";
+}
+
+.fa-linkedin:before {
+    content: "\f08c";
+}
+
+.fa-twitter-square:before {
+    content: "\f081";
+}
+
+
+.search2 input{
+    outline: none;
+    padding: 20px 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(45, 44, 54);
+    width: 90%;
+    font-size: 16px;
+    color: black;
+    outline: none;
+}
+
+.search2 button{
+    width: 90px;
+    margin:-90px;
+    z-index: 2;
+    outline: none;
+    padding: 19.5px 16px;
+    border-radius: 0px 10px 10px 0px;
+    border: 1px solid rgb(45, 44, 54);
+    font-size: 16px;
+    color: black;
+    outline: none;
+    font-weight: 600;
+}
+
+.search2 button:hover{
+background-color: #a14fff;
+color: white;
+cursor: pointer;
+font-weight: 600;
+}
+
+.footer-link {
+    margin-top: 180px;
+    display: flex;
+    gap:90px;
+}
+
+.grid-link{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 120px 80px ;
+}
+.grid-link li:hover{
+color: rgb(0, 0, 0);
+}
+
+.grid-link h6{
+    font-size: 16px;
+    font-weight: 700;
+    color: #313131;
+}
+
+.grid-link li{
+    font-size: 16px;
+    color: #8b8b8b;
+    font-weight: 300;
+}
+
+.copyright{
+justify-content: center;
+}
+
+.copyright p{
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+@media screen and (max-width: 1192px){
+    
+    .immagin{
+        width: 240px !important; 
+        height: 180px !important ;
+    }
+
+    .column-lg{
+        flex-direction: column;
+    }
+        
+    }
+
+
+@media screen and (max-width: 768px){
+.column-md{
+    flex-direction: column !important;
+}
+
+}
+
+@media screen and (max-width: 580px){
+    .column-sm{
+        flex-direction: column;
+    }
+        
+    
+}
+
+@media screen and (max-width: 440px){
+    .column-xs{
+        flex-direction: column;
+    }
+        
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
